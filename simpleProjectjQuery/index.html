@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <h1>Calculator</h1>
+    <div class="calculator">
+        <div class="cal-head">
+            <input type="text" name="" id="head" maxlength="20">
+        </div>
+        <div class="cal-body">
+            <div>
+                <input type="button" value="C" class="btn" onclick="clearAll()">
+                <input type="button" value="()" class="btn" onclick="selectedNumber('()')">
+                <input type="button" value="%" class="btn" onclick="selectedNumber('%')">
+                <input type="button" value="/" class="btn tomato" onclick="selectedNumber('/')">
+            </div>
+            <div>
+                <input type="button" value="9" class="btn" onclick="selectedNumber(9)">
+                <input type="button" value="8" class="btn" onclick="selectedNumber(8)">
+                <input type="button" value="7" class="btn" onclick="selectedNumber(7)">
+                <input type="button" value="*" class="btn tomato" onclick="selectedNumber('*')">
+            </div>
+            <div>
+                <input type="button" value="6" class="btn" onclick="selectedNumber(6)">
+                <input type="button" value="5" class="btn" onclick="selectedNumber(5)">
+                <input type="button" value="4" class="btn" onclick="selectedNumber(4)">
+                <input type="button" value="-" class="btn tomato" onclick="selectedNumber('-')">
+            </div>
+            <div>
+                <input type="button" value="3" class="btn" onclick="selectedNumber(3)">
+                <input type="button" value="2" class="btn" onclick="selectedNumber(2)">
+                <input type="button" value="1" class="btn" onclick="selectedNumber(1)">
+                <input type="button" value="+" class="btn tomato" onclick="selectedNumber('+')">
+            </div>
+            <div>
+                <input type="button" value="0" class="btn" onclick="selectedNumber(0)">
+                <input type="button" value="." class="btn" onclick="selectedNumber('.')">
+                <input type="button" value="DEL" class="btn" onclick="deleteValue()">
+                <input type="button" value="=" class="btn blue" onclick="calculate()">
+            </div>
+        </div>
+    </div>    
+
+    <script src="jquery/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

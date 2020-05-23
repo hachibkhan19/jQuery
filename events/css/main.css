@@ -1,0 +1,16 @@
+div{
+    border: 2px solid red;
+    margin-top: 10px;
+}
+.b{
+    border: 5px solid slategray;
+}
+.div2{
+    padding: 10px;
+    text-align: center;
+    width: 400px;    
+    margin: auto;
+    background: green; 
+    display: none;
+    overflow: hidden;
+}

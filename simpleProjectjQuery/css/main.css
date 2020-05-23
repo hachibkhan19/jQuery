@@ -1,0 +1,41 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+h1{
+    text-align: center;
+}
+.calculator{
+    width: 345px;        
+    margin: auto;
+    text-align: center;
+    font-size: 0;
+}
+.cal-head #head{
+    width: 333px;
+    height: 100px;
+    text-align: right;
+    font-size: 18px;
+    letter-spacing: 3px;    
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.5);    
+    padding-right: 5px;
+}
+.cal-body{    
+    box-shadow: 0 7px 7px 0 rgba(0, 0, 0, 0.5);    
+}
+.btn{
+    background: #000;
+    color: #fff;
+    font-size: 18px;    
+    width: 86px;
+    height: 70px;    ;
+}
+.btn:hover{
+    background: #3c3c3c;
+}
+.tomato{
+    background: tomato;
+}
+.blue{
+    background: blue;
+}

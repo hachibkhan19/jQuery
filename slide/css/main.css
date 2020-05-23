@@ -1,0 +1,56 @@
+div{
+    width: 500px;
+    height: auto;
+    background: #444;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.box1{
+    width: 500px;
+    height: auto;
+    background: #000;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+    display: none;
+}
+.slideUp{
+    width: 500px;
+    height: auto;
+    background: #444;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.box2{
+    width: 500px;
+    height: auto;
+    background: #000;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;    
+}
+
+.slideToggle{
+    width: 500px;
+    height: auto;
+    background: #444;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;
+}
+.box3{
+    width: 500px;
+    height: auto;
+    background: #000;
+    margin-top: 13px;
+    text-align: center;
+    color: #fff;
+    margin: auto;    
+}
